@@ -401,14 +401,13 @@ header{
     font-size: 25px;
 }
 .third .left-sc form{
-    margin-right: -110px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .third .image-container {
-    position: relative;
-    width: 30%;
-    float: left;
+    height: 450px;
+    width: 400px;
     margin: 3px;
-    justify-content: center;
   }
 
 .third .image-container img {
